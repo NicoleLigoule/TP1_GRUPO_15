@@ -1,0 +1,51 @@
+# Directorio de compilación
+/build/
+/target/
+
+# Archivos de dependencias descargadas (Maven y Gradle)
+**/mvnw
+**/mvnw.cmd
+/.mvn/
+/.gradle/
+/.gradle/cache/
+/.gradle/wrapper/
+
+# Archivos de entorno IDE (Eclipse, IntelliJ IDEA, NetBeans)
+# Eclipse
+.project
+.classpath
+/.settings/
+/.metadata/
+/.recommenders/
+/bin/
+/tmp/
+
+# IntelliJ IDEA
+/.idea
+*.iml
+*.iws
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración específicos de la máquina
+*.env
+*.properties
+*.local
+
+# Archivos de configuración del contenedor
+Dockerfile
+docker-compose.yml
