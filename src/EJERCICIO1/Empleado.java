@@ -17,9 +17,10 @@ public class Empleado {
 			nombre = "sin nombre";
 			edad = 99;		
 		}
-		public Empleado(int id, String nombre, int edad) {
-			this.id = id;
-			this.nombre = nombre;
-			this.edad = edad;
+		public Empleado(String nombre,int edad){
+			contador++;
+			this.id=contador;
+			this.nombre=nombre;
+			this.edad=edad;
 		}
 }
