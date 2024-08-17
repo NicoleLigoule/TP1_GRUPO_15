@@ -23,4 +23,21 @@ public class Empleado {
 			this.nombre=nombre;
 			this.edad=edad;
 		}
+		
+		// Getters y Setters
+		public int getEdad() {
+			return edad;
+		}
+		public void setEdad(int edad) {
+			this.edad = edad;
+		}
+		public static int getContador() {
+			return contador;
+		}
+		public static void setContador(int contador) {
+			Empleado.contador = contador;
+		}
+		
+		
+		
 }
