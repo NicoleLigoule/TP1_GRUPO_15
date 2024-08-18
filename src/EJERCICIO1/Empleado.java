@@ -38,6 +38,11 @@ public class Empleado {
 			Empleado.contador = contador;
 		}
 		
+		// Metodos
+		public static int devuelveProximoId() {
+			return contador+1;
+		}
+		
 		
 		
 }
