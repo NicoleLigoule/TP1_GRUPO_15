@@ -14,13 +14,13 @@ public class Empleado {
 		public Empleado() {
 			contador++;
 			id = contador;
-			nombre = "sin nombre";
+			setNombre("sin nombre");
 			edad = 99;		
 		}
 		public Empleado(String nombre,int edad){
 			contador++;
 			this.id=contador;
-			this.nombre=nombre;
+			this.setNombre(nombre);
 			this.edad=edad;
 		}
 		
@@ -41,6 +41,12 @@ public class Empleado {
 		// Metodos
 		public static int devuelveProximoId() {
 			return contador+1;
+		}
+		public String getNombre() {
+			return nombre;
+		}
+		public void setNombre(String nombre) {
+			this.nombre = nombre;
 		}
 		
 		
