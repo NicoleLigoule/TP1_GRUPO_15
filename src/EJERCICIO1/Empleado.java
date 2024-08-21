@@ -49,6 +49,10 @@ public class Empleado {
 		public static int devuelveProximoId() {
 			return contador+1;
 		}
+		@Override
+		public String toString() {
+			return "Empleado" + "\n" + "ID=" + id + "\n"+"Nombre=" + nombre +"\n"+" Edad=" + edad;
+		}
 		
 		
 		
