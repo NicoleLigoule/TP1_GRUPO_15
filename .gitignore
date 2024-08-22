@@ -14,7 +14,6 @@
 # Eclipse
 .project
 .classpath
-/.settings/
 /.metadata/
 /.recommenders/
 /bin/
