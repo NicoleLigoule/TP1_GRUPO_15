@@ -16,6 +16,12 @@ public class Principal {
 		vEmp[4] = new Empleado("Carlos", 22);
 
 		
+		System.out.print(vEmp[0].toString());
+		System.out.print(vEmp[1].toString());
+		System.out.print(vEmp[2].toString());
+		System.out.print(vEmp[3].toString());
+		System.out.print(vEmp[4].toString());
+		
 		// llamado al metodo
 		
 		System.out.print("El próximo ID será el " + Empleado.devuelveProximoId());	
