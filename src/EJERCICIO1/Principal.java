@@ -1,9 +1,6 @@
 package EJERCICIO1;
 
-/**
- * @author Tomas
- *
- */
+
 public class Principal {
 
 	public static void main(String[] args) {
