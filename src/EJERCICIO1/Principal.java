@@ -24,7 +24,7 @@ public class Principal {
 		
 		// llamado al metodo
 		
-		System.out.print("El próximo ID será el " + Empleado.devuelveProximoId());	
+		System.out.print("\nEl próximo ID será el " + Empleado.devuelveProximoId());	
 	}
 
 }
