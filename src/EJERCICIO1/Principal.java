@@ -13,7 +13,7 @@ public class Principal {
 		vEmp[1] = new Empleado();
 		vEmp[2] = new Empleado("Nicole",23);
 		vEmp[3] = new Empleado("Tomas",19);
-		vEmp[4] = new Empleado("Carlos", 22);
+		vEmp[4] = new Empleado();
 
 		
 		System.out.print(vEmp[0].toString());
